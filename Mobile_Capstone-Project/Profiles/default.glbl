@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'olivia123'</initValue>
+      <name>globalPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Olivia'</initValue>
+      <name>globalFullName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'olivia@gmail.com'</initValue>
+      <name>globalEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
