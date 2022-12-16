@@ -19,4 +19,14 @@
       <initValue>'olivia@gmail.com'</initValue>
       <name>globalEmail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sendal@gmail.com'</initValue>
+      <name>globalInvalidEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sendalaja'</initValue>
+      <name>globalInvalidPass</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
