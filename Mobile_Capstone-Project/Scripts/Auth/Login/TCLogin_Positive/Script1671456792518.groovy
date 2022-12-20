@@ -37,6 +37,7 @@ Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText -
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - Password'), 0)
 
+
 Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText - Password (1)'), GlobalVariable.globalPass, 0)
 
 Mobile.hideKeyboard()
