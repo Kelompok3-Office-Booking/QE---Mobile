@@ -17,7 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/Login/TCLogin_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\AIDA\\Downloads\\betterspace - update (1) 18-12-22.apk', true)
 
-WebUI.callTestCase(findTestCase('Auth/Logout/TCLogout_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button'), 0)
 
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - Email'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText - Emailexamplegmail.com'), '',
+	0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - Password'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText - Password (1)'), '', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button (2)'), 0)
+
+//Mobile.verifyElementVisible(findTestObject('Object Repository/Login/android.view.View'), 0)
+//
+Mobile.delay(2)
+
+Mobile.closeApplication()

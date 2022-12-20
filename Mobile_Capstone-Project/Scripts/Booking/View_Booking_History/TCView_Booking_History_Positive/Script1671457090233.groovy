@@ -17,7 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/Login/TCLogin_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+// 3
 
-WebUI.callTestCase(findTestCase('Auth/Logout/TCLogout_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\AIDA\\Downloads\\betterspace - update 19-12-22.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Booking/View_Booking_History/android.widget.EditText - Email (1)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Booking/View_Booking_History/android.widget.EditText - Emailexamplegmail.com (1)'), 
+    'olivia@gmail.com', 0)
+
+Mobile.tap(findTestObject('Object Repository/Booking/View_Booking_History/android.widget.EditText - Password (2)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Booking/View_Booking_History/android.widget.EditText - Password (3)'), 
+    'olivia123', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Booking/View_Booking_History/android.widget.Button (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Booking/View_Booking_History/android.view.View (1)'), 0)
+
+Mobile.closeApplication()
 

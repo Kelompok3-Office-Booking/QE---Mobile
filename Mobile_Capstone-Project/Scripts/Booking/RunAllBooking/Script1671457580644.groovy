@@ -17,7 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Auth/Login/TCLogin_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Booking/View_Booking_History/TCView_Booking_History_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Auth/Logout/TCLogout_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Booking/View_Booking_History/TCView_Booking_History_Negative'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Booking/View_Booking_Detail/TCBooking_Detail_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Booking/View_Booking_Detail/TCBooking_Detail_Negative'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Booking/Give_Review/TCGive_Review_Positive'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Booking/Give_Review/TCGive_Review_Negative'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Booking/CheckIn/TCCheckIn'), [:], FailureHandling.STOP_ON_FAILURE)
 

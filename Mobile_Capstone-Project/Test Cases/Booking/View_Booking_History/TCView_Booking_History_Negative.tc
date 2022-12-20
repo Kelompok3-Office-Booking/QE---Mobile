@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCView_Booking_History_Negative</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab23d2e2-b74a-4bda-8373-3c5806bfe0a0</testCaseGuid>
+</TestCaseEntity>
