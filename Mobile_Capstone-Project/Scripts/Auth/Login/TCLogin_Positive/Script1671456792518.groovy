@@ -44,8 +44,6 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button (2)'), 0)
 
-//Mobile.verifyElementVisible(findTestObject('Object Repository/Login/android.view.View'), 0)
-//
 Mobile.delay(2)
 
 Mobile.closeApplication()
